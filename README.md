@@ -25,3 +25,11 @@ rate sellers and products.<br>
 6.  Wishlist Feature: <br>  
     Enables buyers to save favorite items and
 follow designers for updates.<br>
+
+# Libraries/APIs:
+<br>
+ - Payment Gateway: Stripe API <br> 
+  - Authentication: OAuth 2.0  <br> 
+  - Styling Frameworks: TailwindCSS, Material UI  <br> 
+  - Real-Time Notifications: Firebase Cloud Messaging<br> 
+  - Getting Data: Rest api<br> 
