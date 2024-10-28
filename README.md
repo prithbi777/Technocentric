@@ -4,7 +4,6 @@ This is a E-commerce page we are building.
 
 
 # FEATURES
-
 1. User Registration: Enables buyers and sellers to create
 profiles, manage collections or wishlists, and follow their
 favorite fashion influencers.
