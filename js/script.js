@@ -1,39 +1,5 @@
 
 
-// let darkbtn = document.getElementById('darkmode');
-// let nav = document.getElementById("navi");
-// let love = document.getElementById("love")
-// let shop = document.getElementById("shop")
-// let btnn = document.getElementById("btnn")
-// let lgsp = document.getElementById("lgsp")
-
-// darkbtn.addEventListener("click", function () {
-//     if (document.body.style.backgroundColor === "black") {
-//         document.body.style.backgroundColor = "white";
-//         nav.style.backgroundColor = "white";
-//         love.style.color = "black"; // Set text color to black
-//         shop.style.color = "black"; // Set text color to black
-//         btnn.style.color = "black"; // Set text color to black
-//         lgsp.style.color = "black"; // Set text color to black
-
-//     } else {
-//         document.body.style.backgroundColor = "black";
-//         nav.style.backgroundColor = "black";
-//         love.style.color = "white"; // Set text color to white
-//         shop.style.color = "white"; // Set text color to white
-//         btnn.style.color = "white"; // Set text color to white
-//         lgsp.style.color = "white"; // Set text color to white
-
-//     }
-// });
-
-
-
-
-
-
-
-
 let darkbtn = document.getElementById('darkmode');
 let nav = document.getElementById("navi");
 let love = document.getElementById("love");
