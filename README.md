@@ -37,10 +37,10 @@ Beyonce's Boutique is designed for both buyers and sellers to connect, explore, 
 
 ### 👥 Team Info :
 - **Team Name :** Technocentric
-- **Team ID :** 861
+- **Team ID :** 686
 
 ### 👥 Team Members :
-- **Mentor :** Charitra Agarwal (2022CA023)
+- **Mentor :** Aman Shankar
 - **Member 1 :** Prithibiraj Mahanta (2024CA069)
 - **Member 2 :** Ujjal Roy (2024CA105)
 - **Member 3 :** Ninkor Chandra Barman (2024CA062)
