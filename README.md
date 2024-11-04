@@ -36,9 +36,9 @@ Beyonce's Boutique is designed for both buyers and sellers to connect, explore, 
 - **Data Retrieval:** REST API
 
 ### 👥 Team Members
-**Mentor:** Charitra Agarwal 
-**Member 1:** Prithibiraj Mahanta (2024CA069)
-**Member 2:** Ujjal Roy (2024CA105)
-**Member 3:** Ninkor Chandra Barman (2024CA062)
+- **Mentor:** Charitra Agarwal 
+- **Member 1:** Prithibiraj Mahanta (2024CA069)
+- **Member 2:** Ujjal Roy (2024CA105)
+- **Member 3:** Ninkor Chandra Barman (2024CA062)
 
 Explore *Beyonce's Boutique* to experience a blend of technology and fashion like never before!
