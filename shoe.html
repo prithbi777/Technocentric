@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>StyleHive</title>
+  </head>
+  <body style="background-color: rgb(255, 255, 255);">
+
+    <!-- NAVBAR -->
+    <nav id="navi" class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(195, 248, 255)">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img id="rotate-text" src="imgs/logos/logo.jpg" width="60px" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="lgsp" class="nav-link active" style="font-size: 19px; font-weight: bold;" aria-current="page" href="login.html">Login/SignUp</a>
+              </li>
+              <li class="nav-item">
+                <button id="darkmode"><i style="font-size: 25px;" class="bi bi-moon-stars-fill"></i></button>
+              </li>
+            </ul>
+            <a class="nav-link" href="wishlist.html" style="font-size: 19px;"><i id="love" class="bi bi-heart-fill" style="color: rgb(0, 0, 0); font-size: 25px;"></i></a>
+            <a class="nav-link" href="addTocart.html" style="font-size: 19px;"><i id="shop" class="bi bi-bag-heart-fill" style="color: black; font-size: 29px;"></i></a>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button id="btnn" class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Shoes Collection Section -->
+    <section class="shoes-collection py-5 text-center" style="background-color: #f9f9f9;">
+      <div class="container">
+        <h2 class="display-4 mb-3">Shoes Collection</h2>
+        <p class="lead mb-4">Explore our trendy and stylish collection of shoes. Whether you're looking for comfort or fashion, we have something for everyone.</p>
+        <img src="imgs/shoe/tb01.jpg" class="img-fluid" alt="Shoes Collection Banner">
+      </div>
+    </section>
+
+    <!-- Product List Section -->
+    <div class="container py-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <!-- Product 1 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/1.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-40%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Breezy Steps</h5>
+              <p class="card-text">This pair of shoes offers unmatched comfort with breathable material, perfect for everyday wear.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹2999.00</strong></p>
+                  <p><strong>Discounted Price: ₹1799.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/2.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-33%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Weekend Walkers</h5>
+              <p class="card-text">Step into style with these comfortable shoes made from soft, durable material—perfect for weekend outings.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹2499.00</strong></p>
+                  <p><strong>Discounted Price: ₹1679.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/3.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-50%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Urban Sneakers</h5>
+              <p class="card-text">These stylish urban sneakers are designed for comfort and durability, ideal for the city explorer.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹3499.00</strong></p>
+                  <p><strong>Discounted Price: ₹1749.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/4.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-30%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Casual Kicks</h5>
+              <p class="card-text">These casual shoes offer ultimate comfort and are perfect for a laid-back day out.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹4999.00</strong></p>
+                  <p><strong>Discounted Price: ₹3499.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/5.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-20%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Speedster</h5>
+              <p class="card-text">Get ready for action with the Speedster shoes. Light, fast, and designed to keep up with your pace.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹3999.00</strong></p>
+                  <p><strong>Discounted Price: ₹3199.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/6.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-25%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Comfy Runners</h5>
+              <p class="card-text">Perfect for long walks and runs, these comfy shoes are designed to support your feet throughout the day.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹4299.00</strong></p>
+                  <p><strong>Discounted Price: ₹3225.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/7.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-15%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Athletic Pro</h5>
+              <p class="card-text">High-performance shoes designed to help you push your limits during sports and workouts.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹5999.00</strong></p>
+                  <p><strong>Discounted Price: ₹5099.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/8.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-10%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Classic Loafers</h5>
+              <p class="card-text">Elegant and timeless, these loafers are perfect for formal and semi-formal occasions.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹4499.00</strong></p>
+                  <p><strong>Discounted Price: ₹4049.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="col">
+          <div class="card h-100 position-relative">
+            <img src="imgs/shoe/9.jpg" class="card-img-top" alt="Product Image">
+            <span class="badge bg-danger position-absolute top-0 end-0 m-2">-60%</span>
+            <button class="btn btn-outline-danger position-absolute top-0 start-0 m-2">Add to Wishlist</button>
+            <div class="card-body">
+              <h5 class="card-title">Outdoor Adventures</h5>
+              <p class="card-text">Designed for outdoor enthusiasts, these shoes are built to handle tough terrain and extreme conditions.</p>
+              <div class="d-flex justify-content-between">
+                <div>
+                  <p><strong>Price: ₹6499.00</strong></p>
+                  <p><strong>Discounted Price: ₹2599.00</strong></p>
+                </div>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="row justify-content-evenly mt-5 pt-5 pb-4 text-white " style="background-color: black;">
+        <div class="col-md-3 ">
+          <h3 style="color: rgb(168, 168, 168);"><b><b>Beyonce's Boutique</b></b></h3>
+          <p>At Beyonce's Boutique, our mission is to empower individuals to express their unique style and confidence through high-quality, trendsetting fashion. We curate a diverse selection of clothing and accessories that celebrate self-expression, inclusivity, and the latest fashion trends, ensuring that every customer feels fabulous and fashionable.</p><br>
+        </div>
+        <div class="col-md-3">
+          <h3 style="color: rgb(168, 168, 168);"><b><b>Important Links</b></b></h3>
+          <a href="#" class="text-decoration-none">Home</a><br>
+          <a href="#" class="text-decoration-none">About us</a><br>
+          <a href="#" class="text-decoration-none">Contact Us</a><br>
+          <a href="#" class="text-decoration-none">Our Team</a><br>
+          <a href="#" class="text-decoration-none">Services</a><br><br>
+        </div>
+        <div class="col-md-3">
+          <h3 style="color: rgb(168, 168, 168);"><b><b>Contact Us</b></b></h3>
+          <p>Prithbiraj Mahanta<br>
+            Prayagraj, Up <br>
+            N.N Road <br>
+            <i class="bi bi-telephone-fill"></i> : +91 56346 88654
+  
+          </p>
+        </div>
+      </div>
+  
+  
+  
+  
+  
+  
+  
+      <!-- COPY RIGHT -->
+      <div class="row text-center p-2 " style="background-color: rgb(22, 22, 22);">
+        <div class="col-12">
+          <p style="color: rgb(185, 185, 185);">Copyright 2024-2025 All Rights Reserved By PandaWild.</p>
+        </div>
+      </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      <script src="js/script.js"></script>
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+  </html>
+  
